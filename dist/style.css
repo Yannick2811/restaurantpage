@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/src/assets/pizza.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 5rem;
+}
+
+#content {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  margin: 0;
+  height: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 2px #ddd;
+}
+
+.header h1 {
+  margin: 0 0 2rem 0;
+  font-size: 5rem;
+  font-family: cursive;
+}
+
+.navlist {
+  display: flex;
+  gap: 3rem;
+}
+
+.navlist button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 3.5rem;
+  bottom: 0;
+  border-top: solid 2px #ddd;
+  margin-bottom: 0;
+}
+
+.main-content {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.85);
+  height: 26rem;
+  width: 40rem;
+  color: white;
+  font-size: 1.5rem;
+  margin: 4rem auto;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  border: solid #ddd 2px;
+}
+
+.main {
+  height: 27rem;
+  width: 40rem;
+  font-size: 1.25rem;
+  margin: 4rem auto;
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  border: solid 2px #ddd;
+  border-radius: 10px;
+}
+
+img {
+  height: 21rem;
+  width: 21rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 0;
+  border: solid #ddd 2px;
+}
+
+.chef-image {
+  margin-top: 2rem;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.85);
+  width: 50rem;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.menu-container img {
+  height: 10rem;
+  width: 10rem;
+}
+
+.menu-item h3 {
+  margin: 0.5rem 1rem;
+  font-family: cursive;
+  font-size: 1.5em;
+}
+
+.menu-item p {
+  margin: 0.5rem 1rem;
+}
+
+.contact-container {
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  flex-direction: column;
+  color: #ddd;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 50rem;
+  margin: 2rem auto;
+  border: solid #ddd 2px;
+  border-radius: 10px;
+}
